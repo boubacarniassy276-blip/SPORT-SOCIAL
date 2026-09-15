@@ -1,5 +1,9 @@
-export default {
-  async fetch(request, env) {
-    return env.ASSETS.fetch(request);
+{
+  "name": "sport-social-api",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-15",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
   }
-};
+}
